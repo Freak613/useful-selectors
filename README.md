@@ -1,6 +1,6 @@
 # useful-selectors
 
-Collection of utility selectors, compatible with reselect library
+Collection of utility selectors
 
 ## createMemoSelector
 
