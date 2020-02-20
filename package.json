@@ -1,0 +1,21 @@
+{
+  "name": "useful-selectors",
+  "version": "0.0.1",
+  "description": "Collection of utility selectors, compatible with reselect library",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build-prod": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Martynov <martynov.pl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "rollup": "^1.17.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1"
+  }
+}
