@@ -8,12 +8,16 @@
     "build-prod": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freak613/useful-selectors.git"
+  },
   "author": "Pavel Martynov <martynov.pl@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/Freak613/useful-selectors#readme",
   "dependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
-    "@babel/preset-react": "^7.0.0",
     "rollup": "^1.17.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.0.1"
