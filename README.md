@@ -2,6 +2,12 @@
 
 Collection of utility selectors
 
+## Install
+
+```bash
+npm install useful-selectors
+```
+
 ## createMemoSelector
 
 ```javascript
