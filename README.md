@@ -19,6 +19,6 @@ createIdentitySelector(state => state.domain);
 ## createArraySelector
 
 ```javascript
-createArraySelector(state => state.todos);
+createArraySelector(state => Object.keys(state.todosById));
 // Will compare output array with previous value, returning same instance if nothing changed
 ```
