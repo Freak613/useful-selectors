@@ -12,7 +12,7 @@ export const createMemoSelector = (fn, props) => {
 export const createIdentitySelector = fn => {
   let result;
   return (...args) => {
-    if (reslut) return result;
+    if (result) return result;
     return (result = fn(...args));
   };
 };
